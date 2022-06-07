@@ -1,0 +1,339 @@
+body{
+    background-color: #3D087b;
+}
+.main-container{
+    display: grid;
+     
+    
+}
+.grid-container1{
+    display: block;
+    
+    width: 50%;
+    height: 70vh;
+    margin: 60px;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:30px;
+    grid-template-rows: 20% 95%;
+}
+.grid-item{
+    display: block;
+    
+    width:50%;
+    height: 3vh;
+}
+#clockpic{
+    width: 300px;  
+    height: 90px;
+    
+    border: 2px,solid,red;
+    background-image: url("clocklogo.png");
+    background-size: 100% 100%;
+}
+#left-second-container{
+    margin:-5px;
+
+
+}
+.left-second-container-inner{
+    position: relative;
+    top: 50px;
+    display: block;
+    grid-column-start: 1 ;
+    
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    
+    width: 450px;
+    height: 75px;
+
+}
+.left-second-container-option{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+    position:absolute;
+}
+
+#wakeupTimeselector{
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+#wakeupTimeselector2{
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+#wakeupTimeselector3{
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+#wakeupTimeselector4{
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+
+.grid-container2{
+    position: relative;
+    display: block;
+    grid-column-start: 2;
+    left: -50px;
+    
+    width: 80%;
+    height: 70vh;
+    margin: 60px;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:3px;
+    grid-template-rows: 40% 95%;
+    
+}
+#settime{
+    position: relative;
+    top: 350px;
+    display: block;
+    grid-column-start: 1 ;
+    border: 2px solid red;
+    
+    
+    /*grid-column-end: ;*/
+    position: relative;
+    color: aliceblue;
+    
+    width: 250px;
+    height: 45px;
+    align-content: center;
+    font-size: large;
+    padding-left: 25%;
+    /*background-color: linear-gradient(#6ES4EC,#CB52F8);*/
+}
+.time{
+    position: relative;
+    
+    display: block;
+    grid-column-start: 1 ;
+    border: 2px solid red;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    border-radius: 10px;
+    width: 500px;
+    height: 95px;
+
+
+}
+.msh{
+    position: relative;
+    border: 4px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 540px;
+    height: 45px;
+    top: -336px;
+    left: 595px;
+    display: none;
+    
+}
+.msg{
+    position: relative;
+    top: 50px;
+    display: block;
+    grid-column-start: 1 ;
+    border: 2px solid red;
+    color: black;
+    background-color:white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    border-radius: 10px;
+    width: 540px;
+    height: 45px;
+  
+
+}
+
+.photo{
+    border: 4px solid  wheat;
+    
+    width: 550px;
+    height: 300px;
+    top: 55px;
+    background-color: white;
+    position: relative;
+
+}
+/*.photo{
+    position: relative;
+    top: 50px;
+    display: block;
+    grid-column-start: 1 ;
+    border: 2px solid;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+
+}*/
+.dynamicshit{
+    border: 5px solid black;
+
+}
+#div1{
+    background-image: url("wakeup.png");
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    display: inline-block;
+}
+#div2{
+    background-image: url("lunch.png");
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    display: inline-block;
+}
+#div3{
+    background-image: url("nap.png");
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    display: inline-block;
+}
+#div4{
+    background-image: url("moonimg.png");
+    width: 20%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    display: inline-block;
+}
+.lb1{
+    width: 70%;
+    height: 100%;
+    position:relative;
+    top: -155px;
+    margin: auto;
+    opacity: 0.71;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: white;
+}
+.lb2{
+    width: 60%;
+    height: 100%;
+    position:relative;
+    top: -235px;
+    margin: auto;
+    opacity: 0.22;
+    z-index: -2;
+    border-radius: 10px;
+    background-color: white;
+}
+.clock{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 15%;
+    height: 80%;
+    float: left;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.hr{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    width: 15%;
+    height: 80%;
+    float: left;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+.min{
+    position: relative;
+    top: -45px;
+    left: 30px;
+    width: 15%;
+    height: 80%;
+    float: left;
+    
+    align-items: center;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 10px;
+    background-color: lightpink;
+    opacity: 0.7;
+    
+}
+.sec{
+
+    position: relative;
+    left: 50px;
+    top: -83px;
+    width: 15%;
+    height: 80%;
+    float: left;
+   
+    align-items: center;
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: lightpink;
+    opacity: 0.7;
+    
+}
+.apm{
+    display: grid;
+    position: relative;
+    width:17%;
+    height: 80%;
+    top: -85px;
+    left: 80px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    
+    background-image: url("ambg.png");
+    
+}
+.sem1{
+    position: relative;
+    top: 25px;
+    left: 18px;
+}
+.semi2{
+    position: relative;
+    left: 30px;
+    top: -25px;
+}
+
+
