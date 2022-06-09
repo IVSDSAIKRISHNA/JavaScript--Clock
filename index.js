@@ -30,7 +30,7 @@ function clock() {
 function Makediv(){
     
     // document.getElementById('edo').innerHTML="edo okati";
-    var container = document.createElement("div");
+    var container = document.createElement("div" );
     
     
     
